@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Dream Apartments</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f4f7fb;
+        }
+
+        
+        .header {
+            display: block;
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        
+        .nav a {
+            display: inline;
+            margin: 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav a:hover {
+            color: yellow;
+        }
+
+        
+        .container {
+            text-align: center;
+            padding: 30px;
+        }
+
+        
+        .info-box {
+            display: inline-block;
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            background: #d6eaf8;
+            border-radius: 10px;
+        }
+
+        
+        .form-box {
+            display: block;
+            margin: 30px auto;
+            width: 350px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        input, textarea {
+            display: block;
+            width: 90%;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: darkgreen;
+        }
+
+       
+        .footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    
+    <div class="header">
+        <h2>Contact Us</h2>
+
+       
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    
+    <div class="container">
+
+        <h2>Get in Touch</h2>
+
+        
+        <div class="info-box">
+            <h3><img src="./photos/address.svg" height="20px"> Address</h3>
+            <p>Mumbai, India</p>
+        </div>
+
+        <div class="info-box">
+            <h3><img src="./photos/email.svg" height="25px"> Email</h3>
+            <p>dreamhomes@gmail.com</p>
+        </div>
+
+        <div class="info-box">
+            <h3><img src="./photos/phone.svg" height="25px"> Phone</h3>
+            <p>+91 7028029764</p>
+        </div>
+
+        
+        <div class="form-box">
+            <h3>Send Message</h3>
+
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Message"></textarea>
+
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+    
+    <div class="footer">
+        <p>© 2026 Dream Apartments</p>
+    </div>
+
+</body>
+</html>
